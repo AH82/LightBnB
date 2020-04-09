@@ -1,16 +1,17 @@
 // const properties = require('./json/properties.json');
 // const users = require('./json/users.json');
-const {Pool} = require('pg');
+// const {Pool} = require('pg');
+const pool = require('./db'); /* directory goes to default --> /index.js */
 
 // Connecting to the lightbnb database
-const pool = new Pool({
-  user: 'vagrant',
-  // user: 'labber',
-  password: '123',
-  // password: 'labber',
-  host: 'localhost',
-  database: 'lightbnb'
-});
+// const pool = new Pool({
+//   user: 'vagrant',
+//   // user: 'labber',
+//   password: '123',
+//   // password: 'labber',
+//   host: 'localhost',
+//   database: 'lightbnb'
+// });
 
 /// Users
 
